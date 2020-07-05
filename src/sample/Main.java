@@ -6,6 +6,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
+
 public class Main extends Application {
 
     @Override
@@ -16,7 +17,7 @@ public class Main extends Application {
         primaryStage.setMaxHeight(447);
         primaryStage.setMaxWidth(773);
         primaryStage.show();
-
+        System.out.println("Test");
     }
 
 
