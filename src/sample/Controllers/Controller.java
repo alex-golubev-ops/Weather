@@ -173,7 +173,7 @@ return array;
 
         element = iterator.next();
         array =  parseDate(element.select("p[class=date]").text());
-        todayDate.setText(array[0]+" "+array[1]);
+        tomorrowDate.setText(array[0]+" "+array[1]);
         weatheNight = element.select("tr[class=time]").first();
         tomorrowTemNight.setText(weatheNight.select("span").text());
         weatheDay = element.select("tr[class=time]");
@@ -187,7 +187,7 @@ return array;
 
         element = iterator.next();
         array =  parseDate(element.select("p[class=date]").text());
-        todayDate.setText(array[0]+" "+array[1]);
+        aftertomorrowDate.setText(array[0]+" "+array[1]);
         weatheNight = element.select("tr[class=time]").first();
         aftertomorrowTemNight.setText(weatheNight.select("span").text());
         weatheDay = element.select("tr[class=time]");
